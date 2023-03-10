@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="barang" msprop:Generator_TableClassName="barangDataTable" msprop:Generator_TableVarName="tablebarang" msprop:Generator_TablePropName="barang" msprop:Generator_RowDeletingName="barangRowDeleting" msprop:Generator_RowChangingName="barangRowChanging" msprop:Generator_RowEvHandlerName="barangRowChangeEventHandler" msprop:Generator_RowDeletedName="barangRowDeleted" msprop:Generator_UserTableName="barang" msprop:Generator_RowChangedName="barangRowChanged" msprop:Generator_RowEvArgName="barangRowChangeEvent" msprop:Generator_RowClassName="barangRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdBrg" msprop:Generator_ColumnVarNameInTable="columnIdBrg" msprop:Generator_ColumnPropNameInRow="IdBrg" msprop:Generator_ColumnPropNameInTable="IdBrgColumn" msprop:Generator_UserColumnName="IdBrg" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" msprop:Generator_UserColumnName="NamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="Stok" msprop:Generator_ColumnVarNameInTable="columnStok" msprop:Generator_ColumnPropNameInRow="Stok" msprop:Generator_ColumnPropNameInTable="StokColumn" msprop:Generator_UserColumnName="Stok" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="brg_masuk" msprop:Generator_TableClassName="brg_masukDataTable" msprop:Generator_TableVarName="tablebrg_masuk" msprop:Generator_RowChangedName="brg_masukRowChanged" msprop:Generator_TablePropName="brg_masuk" msprop:Generator_RowDeletingName="brg_masukRowDeleting" msprop:Generator_RowChangingName="brg_masukRowChanging" msprop:Generator_RowEvHandlerName="brg_masukRowChangeEventHandler" msprop:Generator_RowDeletedName="brg_masukRowDeleted" msprop:Generator_RowClassName="brg_masukRow" msprop:Generator_UserTableName="brg_masuk" msprop:Generator_RowEvArgName="brg_masukRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdBMasuk" msprop:Generator_ColumnVarNameInTable="columnIdBMasuk" msprop:Generator_ColumnPropNameInRow="IdBMasuk" msprop:Generator_ColumnPropNameInTable="IdBMasukColumn" msprop:Generator_UserColumnName="IdBMasuk" type="xs:string" minOccurs="0" />
+              <xs:element name="IdBrg" msprop:Generator_ColumnVarNameInTable="columnIdBrg" msprop:Generator_ColumnPropNameInRow="IdBrg" msprop:Generator_ColumnPropNameInTable="IdBrgColumn" msprop:Generator_UserColumnName="IdBrg" type="xs:string" minOccurs="0" />
+              <xs:element name="IdSupplier" msprop:Generator_ColumnVarNameInTable="columnIdSupplier" msprop:Generator_ColumnPropNameInRow="IdSupplier" msprop:Generator_ColumnPropNameInTable="IdSupplierColumn" msprop:Generator_UserColumnName="IdSupplier" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" msprop:Generator_UserColumnName="NamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaSupplier" msprop:Generator_ColumnVarNameInTable="columnNamaSupplier" msprop:Generator_ColumnPropNameInRow="NamaSupplier" msprop:Generator_ColumnPropNameInTable="NamaSupplierColumn" msprop:Generator_UserColumnName="NamaSupplier" type="xs:string" minOccurs="0" />
+              <xs:element name="Jumlah" msprop:Generator_ColumnVarNameInTable="columnJumlah" msprop:Generator_ColumnPropNameInRow="Jumlah" msprop:Generator_ColumnPropNameInTable="JumlahColumn" msprop:Generator_UserColumnName="Jumlah" type="xs:long" minOccurs="0" />
+              <xs:element name="Tanggal" msprop:Generator_ColumnVarNameInTable="columnTanggal" msprop:Generator_ColumnPropNameInRow="Tanggal" msprop:Generator_ColumnPropNameInTable="TanggalColumn" msprop:Generator_UserColumnName="Tanggal" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="brg_keluar" msprop:Generator_TableClassName="brg_keluarDataTable" msprop:Generator_TableVarName="tablebrg_keluar" msprop:Generator_RowChangedName="brg_keluarRowChanged" msprop:Generator_TablePropName="brg_keluar" msprop:Generator_RowDeletingName="brg_keluarRowDeleting" msprop:Generator_RowChangingName="brg_keluarRowChanging" msprop:Generator_RowEvHandlerName="brg_keluarRowChangeEventHandler" msprop:Generator_RowDeletedName="brg_keluarRowDeleted" msprop:Generator_RowClassName="brg_keluarRow" msprop:Generator_UserTableName="brg_keluar" msprop:Generator_RowEvArgName="brg_keluarRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdBKeluar" msprop:Generator_ColumnVarNameInTable="columnIdBKeluar" msprop:Generator_ColumnPropNameInRow="IdBKeluar" msprop:Generator_ColumnPropNameInTable="IdBKeluarColumn" msprop:Generator_UserColumnName="IdBKeluar" type="xs:string" minOccurs="0" />
+              <xs:element name="IdBrg" msprop:Generator_ColumnVarNameInTable="columnIdBrg" msprop:Generator_ColumnPropNameInRow="IdBrg" msprop:Generator_ColumnPropNameInTable="IdBrgColumn" msprop:Generator_UserColumnName="IdBrg" type="xs:string" minOccurs="0" />
+              <xs:element name="IdDivisi" msprop:Generator_ColumnVarNameInTable="columnIdDivisi" msprop:Generator_ColumnPropNameInRow="IdDivisi" msprop:Generator_ColumnPropNameInTable="IdDivisiColumn" msprop:Generator_UserColumnName="IdDivisi" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaBarang" msprop:Generator_ColumnVarNameInTable="columnNamaBarang" msprop:Generator_ColumnPropNameInRow="NamaBarang" msprop:Generator_ColumnPropNameInTable="NamaBarangColumn" msprop:Generator_UserColumnName="NamaBarang" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaDivisi" msprop:Generator_ColumnVarNameInTable="columnNamaDivisi" msprop:Generator_ColumnPropNameInRow="NamaDivisi" msprop:Generator_ColumnPropNameInTable="NamaDivisiColumn" msprop:Generator_UserColumnName="NamaDivisi" type="xs:string" minOccurs="0" />
+              <xs:element name="Jumlah" msprop:Generator_ColumnVarNameInTable="columnJumlah" msprop:Generator_ColumnPropNameInRow="Jumlah" msprop:Generator_ColumnPropNameInTable="JumlahColumn" msprop:Generator_UserColumnName="Jumlah" type="xs:long" minOccurs="0" />
+              <xs:element name="Tanggal" msprop:Generator_ColumnVarNameInTable="columnTanggal" msprop:Generator_ColumnPropNameInRow="Tanggal" msprop:Generator_ColumnPropNameInTable="TanggalColumn" msprop:Generator_UserColumnName="Tanggal" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="barangKey1">
+      <xs:selector xpath=".//mstns:barang" />
+      <xs:field xpath="mstns:IdBrg" />
+    </xs:unique>
+    <xs:unique name="brg_masukKey1">
+      <xs:selector xpath=".//mstns:brg_masuk" />
+      <xs:field xpath="mstns:IdBMasuk" />
+    </xs:unique>
+    <xs:unique name="brg_keluarKey1">
+      <xs:selector xpath=".//mstns:brg_keluar" />
+      <xs:field xpath="mstns:IdBKeluar" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

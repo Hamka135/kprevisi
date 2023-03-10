@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+kp1
+</name>
+</assembly>
+<members>
+<member name="T:kp1.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.exit__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.folders__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.maximize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.maximize__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.meeting__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.minimize15px">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.profile__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.shopping_cart__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.supplier__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:kp1.My.Resources.Resources.supply__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:kp1.DataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.barangDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_masukDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_keluarDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.barangRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_masukRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_keluarRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:kp1.DataSet1.barangRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_masukRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:kp1.DataSet1.brg_keluarRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>
